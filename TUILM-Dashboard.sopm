@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.1">
+    <Name>TUILM-Dashboard</Name>
+    <Vendor>TU Ilmenau</Vendor>
+    <URL>http://www.tu-ilmenau.de/</URL>
+    <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
+    <Description Lang="en">UniRZ extentions.</Description>
+    <Description Lang="de">UnitRZ Erweiterungen.</Description>
+    <Framework>4.0.x</Framework>
+    <Filelist>
+        <File Permission="644"  Location="Kernel/Config/Files/OutputFilterHideCustomerID.xml"/>
+        <File Permission="644"  Location="Custom/Kernel/Output/HTML/OutputFilterHideCustomerID.pm"/>
+    </Filelist>
+</otrs_package>
